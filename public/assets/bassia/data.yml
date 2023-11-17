@@ -1,0 +1,11 @@
+name: Kochia
+sciName: Bassia Scoparia
+start: 6
+end: 10
+uses:
+  - cooked green
+  - cooked seed
+  - chicken food
+description: A common weed and unique summer potherb.
+nativeTo: Dry parts of Asia and Europe
+image: leaves.jpg

@@ -1,0 +1,9 @@
+@import '../../styles/variables';
+
+.header {
+	background-color: $theme-color;
+	// color: $text-color-light;
+	color: $text-color;
+	padding: 20px;
+	text-align: center;
+}

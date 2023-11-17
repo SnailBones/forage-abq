@@ -1,0 +1,10 @@
+name: Tumbleweed
+sciName: Salsola tragus
+start: 5
+end: 8
+uses:
+  - salad
+  - cooked green
+description: The prickly tumbleweed makes a good salad green when picked small, with a salty flavor.
+nativeTo: Eurasian deserts
+image: leaves.jpg

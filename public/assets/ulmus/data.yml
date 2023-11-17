@@ -1,0 +1,10 @@
+name: Siberian Elm
+sciName: Ulmus pumila
+start: 3
+end: 4
+uses:
+  - raw green
+  - chicken food
+description: This common tree makes fresh green seeds in early spring. Get them quick, they don't last long!
+nativeTo: East Asia
+image: seeds.jpg

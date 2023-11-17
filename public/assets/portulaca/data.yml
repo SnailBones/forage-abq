@@ -1,0 +1,10 @@
+name: Verdolagas
+sciName: Portulaca oleracea
+start: 7
+end: 9
+uses:
+  - salad
+  - cooked green
+description: This tart succulent carpets the desert after monsoon rains.
+nativeTo: Cosmopolitan
+image: leaves.jpg

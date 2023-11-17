@@ -1,0 +1,46 @@
+.plant-card {
+  display: flex;
+  flex-direction: column; // This ensures the child elements are stacked vertically
+  align-items: flex-start; // This prevents horizontal stretching of children
+  // justify-content: center; // Aligns children in the center vertically
+
+  flex: 1 1 calc(33.333% - 1em); // Takes up 1/3 of the space, minus the gap
+  aspect-ratio: 1 / 1; // This will make the card square
+
+  // width: 400px; // Set maximum width
+  //   width: fit-content;
+  //   height: 400px; // Set maximum height
+  max-width: 400px; // Set maximum width
+  max-height: 400px; // Set maximum height
+
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative; // So that text can be positioned relative to this element
+
+  // Background Image
+  &:before {
+    content: "";
+    background-image: var(--dynamic-url);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    // z-index: -1;
+    border-radius: 8px;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    z-index: 1;
+  }
+
+  p {
+    z-index: 1;
+    margin-top: auto;
+  }
+}

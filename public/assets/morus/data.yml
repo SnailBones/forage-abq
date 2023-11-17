@@ -1,0 +1,9 @@
+name: Mulberry
+sciName: Morus alba
+start: 6
+end: 6
+uses:
+  - fruit
+description: Sweet, abundant berries marking the start of summer in the bosque.
+nativeTo: China
+image: berries-close.jpg

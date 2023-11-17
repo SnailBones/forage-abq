@@ -1,0 +1,11 @@
+@import '../../styles/variables';
+
+.calendar {
+	padding: 2em;
+	// background-color: $background-color;
+
+	h2 {
+		text-align: center;
+		color: $text-color-light;
+	}
+}

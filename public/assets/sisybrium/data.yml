@@ -1,0 +1,10 @@
+name: Samara Ratha
+sciName: Sisymbrium irio
+start: 10
+end: 5
+uses:
+  - salad
+  - herb
+description: This winter mustard weed has a spicy, wasabi-like bite.
+nativeTo: Mediterranean
+image: leaves.jpg

@@ -1,0 +1,10 @@
+name: Quelites
+sciName: Chenopodium album
+start: 4
+end: 9
+uses:
+  - salad
+  - cooked green
+description: This garden weed is a traditional New Mexican green.
+nativeTo: Eurasia
+image: leaves.jpg

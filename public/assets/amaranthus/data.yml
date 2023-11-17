@@ -1,0 +1,11 @@
+name: Amaranth
+sciName: Amaranthus palmeri
+start: 6
+end: 9
+uses:
+  - salad
+  - cooked green
+  - cooked seed
+description: A relative of spinach and good cooked green during the summer monsoon.
+nativeTo: North American Deserts
+image: leaves.jpg
