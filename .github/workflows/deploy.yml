@@ -26,7 +26,7 @@ jobs:
 
       - name: Deploy to Digital Ocean
         run: |
-          ssh -o StrictHostKeyChecking=no [your-username]@[your-droplet-ip] << 'ENDSSH'
+          ssh -o StrictHostKeyChecking=no root@104.248.65.121<< 'ENDSSH'
             cd /var/www/forage-abq
             git pull origin main
             npm install
