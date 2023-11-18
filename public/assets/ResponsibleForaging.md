@@ -2,7 +2,7 @@
 
 Foraging allows us to relate to the natural world in a physical way. By drawing sustenance from the place where we live and the other species that share it with us, we build a deeper connection and multisensory understanding of them. We practice mutual care and symbiosis with other species, as our species—and every species—has always done.
 
-This site lists only non-native and/or abundant "weedy" species. Here's soe:
+This site lists only non-native and/or abundant "weedy" species. Nonetheless, please forage with respect for the habitats that are sustaining you. Here are some guidelines:
 
 - **Take only what you will use**. Leave most plants for others, wildlife, and so the plants themselves can continue to grow and reproduce. Most foraged foods require processing that can take much longer than the picking itself, so you'll be saving yourself time.
 - **Cut, don't pull**. Even if you're harvesting a non-native weed, pulling disturbs the soil, which can harm native plants growing nearby or contribute to erosion.
