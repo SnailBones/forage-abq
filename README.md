@@ -1,3 +1,9 @@
+### Forage ABQ
+
+An interactive guide to common and easily usable edible plants in Albuquerque, NM.
+
+Browse me at [forageabq.com]!
+
 ### to do high priority:
 
 - test on mobile
