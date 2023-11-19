@@ -10,15 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # - name: Checkout Repo
-      #   uses: actions/checkout@v2
-
-      # - name: Install Dependencies
-      #   run: npm install
-
-      # - name: Build
-      #   run: npm run build
-
       - name: Install SSH Key
         uses: webfactory/ssh-agent@v0.8.0
         with:
@@ -26,7 +17,7 @@ jobs:
 
       - name: Deploy to Digital Ocean
         run: |
-          ssh -o StrictHostKeyChecking=no root@104.248.65.121<< 'ENDSSH'
+          ssh -o StrictHostKeyChecking=no snailbones@104.248.65.121<< 'ENDSSH'
             cd /var/www/forage-abq
             git pull origin main
             npm install
