@@ -1,13 +1,10 @@
-### Forage ABQ
-
-## [forageabq.com](forageabq.com)
+# [ForageABQ.com](www.forageabq.com)
 
 An interactive guide to common and easily usable edible plants in Albuquerque, NM.
 
 ### to do high priority:
 
 - test on mobile
-- fix typos
 - fix CI
 - https
 
