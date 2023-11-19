@@ -18,6 +18,7 @@ jobs:
       - name: Deploy to Digital Ocean
         run: |
           ssh -o StrictHostKeyChecking=no snailbones@104.248.65.121<< 'ENDSSH'
+            source ~/.nvm/nvm.sh
             nvm use 20
             which node
             which npm
