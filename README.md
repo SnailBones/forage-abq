@@ -5,8 +5,7 @@ An interactive guide to common and easily usable edible plants in Albuquerque, N
 ### to do high priority:
 
 - test on mobile
-- fix CI
-- https
+- performance: resize images
 
 ### to do:
 
