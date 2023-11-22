@@ -6,7 +6,7 @@ Plants can be fibrous. To harvest the leaves, be gentle. If a stem breaks off ea
 
 Alternatively, break up the long strings of fiber by running it through a blender. This makes for a delicious saag paneer, or use it any way you'd use blended spinach.
 
-Kochia is widespread and easy to find! It can be found in the bosque, gardens, empty lots and alleyways. It prefers disturbed soil and is often found growing with [tumbleweeds](salsola), goatheads and seasonally swapping places with [samara ratha](sisybrium).
+Kochia is widespread and easy to find. It grows in the bosque, gardens, empty lots and alleyways. It prefers disturbed soil and is often found growing with [tumbleweeds](salsola) and goatheads and seasonally swapping places with [samara ratha](sisybrium).
 
 Kochia is easily confused with our native purple aster (Dieteria canescens), especially when small. Look closely at leaf margins to differentiate them. Kochia leaves are also slightly fuzzy.
 

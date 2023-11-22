@@ -1,9 +1,9 @@
-name: Cherry Plum, Purple-leaf Plum
+name: Cherry Plum
 sciName: Prunus cerasifera
 start: 6
 end: 7
 uses:
   - fruit
-description: Delicious, small tart plums from this ornamental street tree.
+description: Delicious, small tart plums from this purple-leaved street tree.
 nativeTo: SE Europe and W Asia
 image: leaves.jpg

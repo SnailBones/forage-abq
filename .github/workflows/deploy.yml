@@ -10,20 +10,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Install SSH Key
-        uses: webfactory/ssh-agent@v0.8.0
-        with:
-          ssh-private-key: ${{ secrets.PRIVATE_KEY }}
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-      - name: Deploy to Digital Ocean
-        run: |
-          ssh -o StrictHostKeyChecking=no snailbones@104.248.65.121<< 'ENDSSH'
-            source ~/.nvm/nvm.sh
-            nvm use 20
-            which node
-            which npm
-            cd /var/www/forage-abq
-            git pull origin main
-            npm install
-            npm run build
-          ENDSSH
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.PRIVATE_KEY }}
+          source: "./build"
+          target: "/var/www/forage-abq"
