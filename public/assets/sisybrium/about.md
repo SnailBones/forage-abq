@@ -4,6 +4,8 @@ These leaves pack a wasabi-like bite. To some, it's an acquired taste, best used
 
 Grows in disturbed, sandy areas. Plants tent to grow larger and taste better in areas that receive some shade. Look on the north sides of walls.
 
-Following heavy rain and snow, samara ratha grows ubiquitously. During dryer years, it's found mostly in places that collect runoff or recieve irrigation.
+During dryer winters, samara ratha is found mostly in places that collect runoff or receive irrigation. Following heavy rain and snow, it grows ubiquitously.
 
-![image](/assets/sisybrium/img/chickens.jpg "Even chickens love eating samara ratha")
+Samara ratha can be confused with sow thistle (Sonchus sp.) or prickly lettuce (Lactuca serriola), which can have similar leaf shapes. Both are edible but very bitter. Both leak a white sap when cut, which samara ratha does not.
+
+![image](/assets/sisybrium/img/chickens.jpg "Chicks dig samara ratha")
