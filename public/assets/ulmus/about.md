@@ -1,9 +1,0 @@
-Look out a window in Albuquerque or another Southwest town, and there's a good chance you'll see a Siberian elm. Introduced to fight the dust bowl, these are a common shade tree and have escaped into wild habitats like our bosque. In early spring, they produce an abundance of bright green seed pods that are easily mistaken for leaves, called "samaras." They are edible and palatable with a mild, fresh leafy taste.
-
-To harvest, simply strip the seeds from the branches. Don't worry if you get some leaves and flowers, they're edible too!
-
-![image](/assets/ulmus/img/handful.jpg "A handful of elm samaras.")
-
-Pop them into your mouth for a fresh greens snack on a run! But they really shine added to a salad, or even alone with salad dressing. If you like a spicier salad, throw in a bit of [samara ratha](sisybrium) to add a kick!
-
-The Siberian elm may be confused with the lacebark elm, as both species are sometimes known as "chinese elm." Lacebark elms can be found as street trees in Albuquerque and lack their cousin's invasive habit. Their samaras are also edible.
