@@ -30,5 +30,5 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.PRIVATE_KEY }}
-          source: ".next"
+          source: "./"
           target: "/var/www/forage-abq-next"
