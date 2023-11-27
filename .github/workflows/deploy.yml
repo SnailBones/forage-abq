@@ -32,3 +32,15 @@ jobs:
           key: ${{ secrets.PRIVATE_KEY }}
           source: "./"
           target: "/var/www/forage-abq-next"
+
+      - name: Restart PM2 process
+              uses: appleboy/ssh-action@master
+              with:
+                host: ${{ secrets.HOST }}
+                username: ${{ secrets.USERNAME }}
+                key: ${{ secrets.PRIVATE_KEY }}
+                script: |
+                  cd /var/www/forage-abq-next
+                  nvm use 20
+                  pm2 restart all
+
