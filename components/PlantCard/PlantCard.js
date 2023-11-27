@@ -3,6 +3,7 @@
 import React from "react";
 import TextBubble from "../TextBubble/TextBubble";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 import "./PlantCard.scss";
 
 const PlantCard = ({ plant }) => {
@@ -20,13 +21,19 @@ const PlantCard = ({ plant }) => {
   return (
     <div
       className="plant-card"
-      style={{
-        "--dynamic-url": `url('/assets/${plant.dirName}/img/${plant.image}')`,
-      }}
       onMouseDown={() => setIsDragging(false)}
       onMouseMove={() => setIsDragging(true)}
       onMouseUp={handleClick}
     >
+      <div className="plant-image-container">
+        <Image
+          src={`/assets/${plant.dirName}/img/${plant.image}`}
+          alt=""
+          width={432}
+          height={432}
+          className="plant-image"
+        />
+      </div>
       <TextBubble text={plant.name} title={true} />
       <TextBubble text={plant.description} />
     </div>
