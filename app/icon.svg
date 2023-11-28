@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <g class="layer">
+  <title>Layer 1</title>
+  <ellipse cx="7.45" cy="24.89" fill="#ffff00" id="svg_2" rx="13.08" ry="11.08" stroke="#000000"/>
+  <ellipse cx="7.84" cy="11.77" fill="#00ffd8" id="svg_1" rx="3.04" ry="3.04" stroke="#000000"/>
+  <ellipse cx="5.23" cy="7.37" fill="#00ffd8" id="svg_3" rx="2.24" ry="2.91" stroke="#000000" transform="matrix(0.757193, -0.653191, 0.653191, 0.757193, -3.69262, 4.52218)"/>
+  <ellipse cx="13.29" cy="8.43" fill="#00ffd8" id="svg_4" rx="2.31" ry="3.04" stroke="#000000" transform="matrix(0.785568, 0.273915, -0.221326, 0.972227, 3.70876, -2.53864)"/>
+  <ellipse cx="6.42" cy="2.98" fill="#ff007f" id="svg_5" rx="1.16" ry="1.74" stroke="#000000" transform="rotate(27.7052, 6.42031, 2.9751)"/>
+  <ellipse cx="2.63" cy="2.9" fill="#ff007f" id="svg_6" rx="1.16" ry="1.74" stroke="#000000" transform="matrix(1, 0, 0, 1, 0, 0) rotate(-21.9066, 2.62721, 2.89847)"/>
+  <ellipse cx="13.97" cy="4.89" fill="#ff007f" id="svg_7" rx="1.16" ry="1.74" stroke="#000000" transform="rotate(31.3322, 13.9682, 4.89081)"/>
+ </g>
+</svg>
