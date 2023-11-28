@@ -5,7 +5,7 @@ export function useMDXComponents(components) {
   return {
     img: (props) => (
       <figure>
-        <Image width="400" height="400" {...props} />
+        <Image width="1000" height="1000" {...props} />
         <figcaption>{props.title}</figcaption>
       </figure>
     ),
