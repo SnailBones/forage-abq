@@ -26,17 +26,17 @@ const PlantList = ({ plants }) => {
     },
   };
 
-  const scrollHandler = (e) => {
-    if (carouselRef.current) {
-      if (e.deltaY > 0) {
-        carouselRef.current.next();
-      } else {
-        carouselRef.current.previous();
-      }
-    }
-  };
-
   useEffect(() => {
+    const scrollHandler = (e) => {
+      if (plants.length > 1 && carouselRef.current) {
+        if (e.deltaY > 0) {
+          carouselRef.current.next();
+        } else {
+          carouselRef.current.previous();
+        }
+      }
+    };
+
     const wrapperElement = wrapperRef.current;
     if (wrapperElement) {
       wrapperElement.addEventListener("wheel", scrollHandler);
@@ -45,11 +45,18 @@ const PlantList = ({ plants }) => {
         wrapperElement.removeEventListener("wheel", scrollHandler);
       };
     }
-  }, []);
+  }, [plants.length]);
 
   return (
     <div ref={wrapperRef}>
-      <Carousel responsive={responsive} infinite={true} ref={carouselRef}>
+      <Carousel
+        responsive={responsive}
+        infinite={true}
+        ref={carouselRef}
+        showDots={plants.length > 1}
+        arrows={plants.length > 1}
+        draggable={plants.length > 1}
+      >
         {plants.map((plant, index) => (
           <PlantCard plant={plant} key={index} />
         ))}
