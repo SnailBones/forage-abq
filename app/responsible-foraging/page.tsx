@@ -14,7 +14,7 @@ const ResponsibleForaging = () => {
   }, []);
 
   return (
-    <div class="textBox">
+    <div className="textBox">
       <ReactMarkdown>{markdownContent}</ReactMarkdown>
     </div>
   );

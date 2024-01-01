@@ -2,11 +2,11 @@
 
 Albuquerque exists on the unceded land of the Tiwa-speaking Pueblo people, specifically the Sandia and Isleta Pueblos.
 
-The uses of plants are indigenous knowledge. Whether the Pueblo people who continue to steward the Rio Grande valley and harvest [amaranth](/plant/amaranthus), [quelites](/plant/chenopodium), and [verdolagas](plant/portulaca), or the Bedouin of the Sinai and Palestine for their use of [samara ratha](plant/sisybrium), we are grateful for their knowledge and stewardship.
+The uses of plants are indigenous knowledge. Whether the Pueblo people who continue to steward the Rio Grande valley and harvest [amaranth](/plant/amaranthus), [quelites](/plant/chenopodium), and [verdolagas](plant/portulaca), the Bedouin of the Sinai and Palestine for their use of [samara ratha](plant/sisybrium), or numerous east Asian cultures for their knowledge of [kochia](/plant/bassia), we are grateful for their knowledge and stewardship.
 
 ## Responsible Foraging
 
-By drawing sustenance from the place where we live and the other species that share it with us, we continue a symbiotic relationships that our species—like every other—has always participated in. Foraging builds respect and care for our "weedy" neighbors and the often-overlooked areas where they grow through multisensory understanding and physical connection.
+By drawing sustenance from the place where we live and the other species that share it with us, we continue symbiotic relationships that our species—like every other—has always participated in. Foraging builds respect and care for our "weedy" neighbors and the often-overlooked areas where they grow through physical interaction and sustenance.
 
 This site lists only non-native and abundant "weedy" native species. If done sustainably, foraging for these species can provides us with fresh food year-round while reducing our reliance on resource-intensive supply chains. Here are some guidelines on sustainability:
 
@@ -17,7 +17,7 @@ This site lists only non-native and abundant "weedy" native species. If done sus
 
 Stay safe! A few basic precautions:
 
-- **If you're not sure, don't eat it.** Some plants have toxic lookalikes. ID your plants carefully, and don't eat anything that tastes bad or unexpected.
+- **If you're not sure, don't eat it.** Some plants have toxic lookalikes. ID your plants carefully, and don't eat anything that tastes bitter or unusual.
 - **Try a small amount first.** Even if your ID is correct, you could be allergic.
 - **Don't get lead poisoned.** Wash thoroughly. Avoid plants growing near busy streets or gas stations, where leaded gasoline may have contaminated the soil.
 - **Avoid pesticides and fertilizers.** Some weeds can accumulate toxic levels of nitrates when fertilized.
