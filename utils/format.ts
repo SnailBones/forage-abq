@@ -13,11 +13,11 @@ const monthNames = [
   "December",
 ];
 
-export const getMonthName = (n) => {
+export const getMonthName = (n: number): string => {
   return monthNames[n - 1];
 };
 
-export const formatSeason = (start, end) => {
+export const formatSeason = (start: number, end: number): string => {
   if (start === end) {
     return getMonthName(start);
   }
@@ -25,11 +25,11 @@ export const formatSeason = (start, end) => {
   return `${getMonthName(start)} through ${getMonthName(end)}`;
 };
 
-export const formatUses = (uses) => {
+export const formatUses = (uses: string[]): string => {
   return uses.join(", ");
 };
 
-export const getCurrentMonth = () => {
+export const getCurrentMonth = (): number => {
   const date = new Date();
   return date.getMonth() + 1;
 };

@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import YAML from "js-yaml";
 import { loadData } from "utils/loadPlantData";
 import { getCurrentMonth } from "utils/format";
-import PlantList from "components/PlantList/PlantList";
+import PlantGrid from "components/PlantGrid/PlantGrid";
 import "./FullPlantList.scss";
 
 const FullPlantList = () => {
@@ -34,7 +34,7 @@ const FullPlantList = () => {
   return (
     <div className="calendar">
       <h2>All Plants:</h2>
-      <PlantList plants={plants} />
+      <PlantGrid plants={plants} />
     </div>
   );
 };

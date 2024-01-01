@@ -3,24 +3,24 @@
 
 import React, { useEffect, useState } from "react";
 import YAML from "js-yaml";
-import { loadData } from "utils/loadPlantData";
+import { loadData, PlantData } from "utils/loadPlantData";
 import { getCurrentMonth, getMonthName } from "utils/format";
 import PlantList from "components/PlantList/PlantList";
 import "./Calendar.scss";
 
 const Calendar = () => {
-  const [plants, setPlants] = useState([]);
+  const [plants, setPlants] = useState<PlantData[]>([]);
   const currentMonth = getCurrentMonth();
 
   useEffect(() => {
     const loadAndSetPlants = async () => {
       const plantListResponse = await fetch("/assets/plantList.yml");
       const plantListYAML = await plantListResponse.text();
-      const plantNames = YAML.load(plantListYAML);
+      const plantNames: string[] = YAML.load(plantListYAML);
 
-      const newPlants = [];
+      const newPlants: PlantData[] = [];
       for (const plantName of plantNames) {
-        const plantData = await loadData(plantName);
+        const plantData: PlantData = await loadData(plantName);
         if (
           (plantData.start <= currentMonth && plantData.end >= currentMonth) ||
           // account for winter plants with season including the new year

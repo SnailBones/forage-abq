@@ -1,9 +1,0 @@
-ul {
-	display: flex; // Makes the list items display horizontally
-	// flex-wrap: wrap; // Allows the items to wrap onto the next row if needed
-	white-space: nowrap; // Prevents the list items from breaking into the next line
-	overflow-x: auto; // Enables horizontal scrolling
-	gap: 1em; // Sets a gap between the items
-	list-style-type: none; // Removes default list bullets
-	padding: 0; // Removes default padding
-}
