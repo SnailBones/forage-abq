@@ -2,15 +2,15 @@
 
 Albuquerque exists on the unceded land of the Tiwa-speaking Pueblo people, specifically the Sandia and Isleta Pueblos.
 
-The uses of plants are indigenous knowledge. Whether the Pueblo people who continue to steward the Rio Grande valley and harvest [amaranth](/plant/amaranthus), [quelites](/plant/chenopodium), and [verdolagas](plant/portulaca), the Bedouin of the Sinai and Palestine for their use of [samara ratha](plant/sisybrium), or numerous east Asian cultures for their knowledge of [kochia](/plant/bassia), we are grateful for their knowledge and stewardship.
+The uses of plants are indigenous knowledge. Whether the Pueblo people who continue to steward the Rio Grande valley and harvest [amaranth](/plant/amaranthus), [quelites](/plant/chenopodium), and [verdolagas](plant/portulaca), the Bedouin of the Sinai and Palestine for their use of [samara ratha](plant/sisybrium), or numerous east Asian cultures for [kochia](/plant/bassia), we are grateful for their knowledge and stewardship.
 
 ## Responsible Foraging
 
-By drawing sustenance from the place where we live and the other species that share it with us, we continue symbiotic relationships that our species—like every other—has always participated in. Foraging builds respect and care for our "weedy" neighbors and the often-overlooked areas where they grow through physical interaction and sustenance.
+By drawing sustenance from the place where we live and the other species that share it with us, we continue symbiotic relationships that our species—like every other—has always participated in. Foraging builds respect and care for our "weedy" neighbors and the often-overlooked areas where they grow through multisensory interaction and the joy and intimacy of food.
 
-This site lists only non-native and abundant "weedy" native species. If done sustainably, foraging for these species can provides us with fresh food year-round while reducing our reliance on resource-intensive supply chains. Here are some guidelines on sustainability:
+This site lists only non-native and abundant "weedy" native species. If done sustainably, foraging for these species can provides us with fresh food while reducing our reliance on resource-intensive supply chains. Here are some guidelines on sustainability:
 
-- **Take only what you will use**. Leave most plants for others, wildlife, and so the plants themselves can continue to grow and reproduce. Most often, processing and cooking your foraged food will take much longer than harvesting them, so don't get carried away!
+- **Take only what you will use**. Leave most plants for others, wildlife, and so the plants themselves can continue to grow and reproduce. Often, processing and cooking your foraged food will take much longer than harvesting them, so don't get carried away!
 - **Cut, don't pull**. Even if you're harvesting a non-native weed, pulling disturbs soil life and can contribute to erosion.
 - **Learn which plants are native.** If you harvest native plants, do so with extra restraint and care. Better yet, consider growing them in a garden.
 - **Don't spread invasive plants.** Harvest non-native plants before they go to seed. Take care not to spread seeds to new areas. Clean your shoes frequently, and watch out for goatheads!
