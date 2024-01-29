@@ -2,7 +2,7 @@
 
 Albuquerque exists on the unceded land of the Tiwa-speaking Pueblo people, specifically the Sandia and Isleta Pueblos.
 
-The uses of plants are indigenous knowledge. Whether the Pueblo people who continue to steward the Rio Grande valley and harvest [amaranth](/plant/amaranthus), [quelites](/plant/chenopodium), and [verdolagas](plant/portulaca), the Bedouin of the Sinai and Palestine for their use of [samara ratha](plant/sisybrium), or numerous east Asian cultures for [kochia](/plant/bassia), we are grateful for their knowledge and stewardship.
+The uses of plants are indigenous knowledge. Whether the Pueblo people who continue to steward the Rio Grande valley and harvest [amaranth](/plant/amaranthus), [quelites](/plant/chenopodium), and [verdolagas](plant/portulaca), the Bedouin of the Sinai and Palestine for their use of [khardal barri](plant/sisybrium), or numerous east Asian cultures for [kochia](/plant/bassia), we are grateful for their knowledge and stewardship.
 
 ## Responsible Foraging
 
