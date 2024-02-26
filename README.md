@@ -4,8 +4,10 @@ An interactive guide to edible plants in Albuquerque, NM, with a focus on those 
 
 ### to do:
 
-- adding more plants
-- adding more images
-- visual styling
-- spanish translation
-- about page
+-   adding more plants
+-   adding more images
+-   visual styling
+-   spanish translation
+-   about page
+-   loading animation
+-   improve links
