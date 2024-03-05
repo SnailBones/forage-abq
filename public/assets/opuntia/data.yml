@@ -1,0 +1,9 @@
+name: Nopales
+sciName: Opuntia sp.
+start: 5
+end: 6
+uses:
+    - cooked green
+description: Fresh prickly pear pads make a delicious, tart vegetable.
+nativeTo: Southwest North America
+image: opuntia.jpg
