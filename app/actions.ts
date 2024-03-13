@@ -18,10 +18,6 @@ export async function sendEmail(formData: FormData) {
     });
     const logFilePath = path.join(__dirname, "../../../../emails.log");
 
-    console.log("sending email and logging to: ", logFilePath);
-    console.log("email is", process.env.EMAIL);
-    console.log("password is", process.env.PASSWORD);
-
     function writeToFile(logMessage: string) {
         fs.appendFileSync(logFilePath, logMessage);
     }
@@ -39,6 +35,13 @@ export async function sendEmail(formData: FormData) {
         function (error: any, info: { response: string }) {
             if (error) {
                 console.log(error);
+                writeToFile(
+                    "email is " +
+                        process.env.EMAIL +
+                        " password is" +
+                        process.env.PASSWORD +
+                        "\n"
+                );
                 writeToFile(error + "\n\n");
             } else {
                 console.log("Email sent: " + info.response);
