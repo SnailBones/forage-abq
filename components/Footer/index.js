@@ -7,7 +7,7 @@ const Footer = () => {
         <footer className="footer">
             <Link href="/responsible-foraging">Please forage with care.</Link>
             <p>
-                Made with 🖤 & GPT-4 by <a href="about">Aidan</a>. Source on{" "}
+                Made with 🖤 & GPT-4 by <a href="/about">Aidan</a>. Source on{" "}
                 <a href="https://github.com/SnailBones/forage-abq">Github</a>.
             </p>
         </footer>

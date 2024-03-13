@@ -9,15 +9,15 @@ export function useMDXComponents(components) {
                 <figcaption>{props.title}</figcaption>
             </figure>
         ),
+        // Do not wrap images in a p tag
         p: (props) => {
-            // Check if children is an array and contains only React elements
             if (
-                Array.isArray(props.children) &&
-                props.children.every((child) => React.isValidElement(child))
+                typeof props.children === "object" &&
+                !Array.isArray(props.children) &&
+                props.children.props.src
             ) {
                 return <>{props.children}</>;
             }
-            // For text nodes or mixed content, wrap in a <p> tag
             return <p {...props} />;
         },
         ...components,
