@@ -30,9 +30,8 @@ export async function sendEmail(formData: FormData) {
         text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`, // Plain text body
         html: `<b>Name:</b>${name}<br><b>Email:</b> ${email}<br><b>Message:</b> ${message}`, // HTML body
     };
-    await transporter.sendMail(
-        mailOptions,
-        function (error: any, info: { response: string }) {
+    return new Promise((resolve, reject) => {
+        transporter.sendMail(mailOptions, (error, info) => {
             if (error) {
                 console.log(error);
                 writeToFile(
@@ -42,11 +41,13 @@ export async function sendEmail(formData: FormData) {
                         process.env.PASSWORD +
                         "\n"
                 );
-                writeToFile(error + "\n\n");
+                writeToFile(`Error sending email: ${error.toString()}\n\n`);
+                reject(error);
             } else {
                 console.log("Email sent: " + info.response);
                 writeToFile(`Email sent: ${info.response}\n\n`);
+                resolve(info); // Resolve the promise with the info object
             }
-        }
-    );
+        });
+    });
 }
