@@ -1,11 +1,11 @@
 name: Kochia
 sciName: Bassia Scoparia
-start: 6
+start: 4
 end: 11
 uses:
-  - cooked green
-  - cooked seed
-  - chicken food
-description: This tumbleweed-like plant makes a unique summer potherb.
+    - cooked green
+    - cooked seed
+    - chicken food
+description: This tumbleweed-like plant is a delicious, unique green when cooked.
 nativeTo: Dry parts of Asia and Europe
 image: leaves.jpg
