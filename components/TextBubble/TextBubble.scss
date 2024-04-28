@@ -1,19 +1,31 @@
 .text-bubble {
-	display: inline-block; // Or use inline-flex if you need flexbox features
-	background-color: rgba(255, 255, 255, 0.8); // Semi-transparent white
-	padding: 6px;
-	border-radius: 10px;
-	line-height: 1; // Snug line height
-	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); // Optional
-	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); // Optional
+  display: inline-block; // Or use inline-flex if you need flexbox features
+  background-color: rgba(255, 255, 255, 0.8); // Semi-transparent white
+  padding: 6px 12px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); // Optional
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); // Optional
 
-	justify-self: bottom;
-	word-wrap: break-word;
-	overflow-wrap: break-word;
-	white-space: normal;
+  justify-self: bottom;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
 
-	// &.plant-title {
-	// 	align-self: center
-	// }
+  //   max-width: fit-content;
+  height: fit-content;
 
+  margin-top: 0;
+
+  &.plant-title {
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+
+  &.plant-description {
+    margin-top: auto;
+  }
+
+  //   &.top-right-bubble {
+  //     justify-self: end;
+  //   }
 }

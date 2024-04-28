@@ -2,6 +2,7 @@
 
 import React from "react";
 import TextBubble from "../TextBubble/TextBubble";
+import { getMonthName } from "utils/format";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import "./PlantCard.scss";
@@ -34,7 +35,13 @@ const PlantCard = ({ plant }) => {
           className="plant-image"
         />
       </div>
-      <TextBubble text={plant.name} title={true} />
+      <div className="top-row">
+        <TextBubble text={plant.name} role="title" />
+        <TextBubble
+          text={getMonthName(plant.start) + " - " + getMonthName(plant.end)}
+          role="season"
+        />
+      </div>
       <TextBubble text={plant.description} />
     </div>
   );

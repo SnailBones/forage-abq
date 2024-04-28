@@ -14,7 +14,21 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   position: relative; // So that text can be positioned relative to this element
 
+  //   display: grid;
+  //   grid-template-columns: 2fr 1fr;
+  //   grid-template-rows: auto 1fr auto;
+  //   gap: 1em;
+  //   position: relative;
+  //   justify-items: stretch;
+  //   align-items: stretch;
+
   cursor: pointer;
+
+  .top-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
 
   .plant-image-container {
     position: absolute;
@@ -33,13 +47,8 @@
     object-position: center;
   }
 
-  h3 {
-    font-size: 1.5em;
-    z-index: 2;
-  }
-
+  h3,
   p {
     z-index: 2;
-    margin-top: auto;
   }
 }
