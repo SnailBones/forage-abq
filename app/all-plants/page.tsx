@@ -3,13 +3,11 @@
 import React, { useEffect, useState } from "react";
 import YAML from "js-yaml";
 import { loadData } from "utils/loadPlantData";
-import { getCurrentMonth } from "utils/format";
 import PlantGrid from "components/PlantGrid/PlantGrid";
 import "./FullPlantList.scss";
 
 const FullPlantList = () => {
     const [plants, setPlants] = useState([]);
-    const currentMonth = getCurrentMonth();
 
     useEffect(() => {
         const loadAndSetPlants = async () => {

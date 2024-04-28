@@ -1,9 +1,15 @@
 import yaml from "js-yaml";
 
 export interface PlantData {
+  name: string;
+  sciName: string;
   start: number;
   end: number;
-  dirName: string;
+  uses: string[];
+  description: string;
+  nativeTo: string;
+  image: string;
+  dirName?: string;
 }
 
 export const loadData = async (plantName: string): Promise<PlantData> => {
