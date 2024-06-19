@@ -1,6 +1,6 @@
 name: Cherry Plum
 sciName: Prunus cerasifera
-start: 6
+start: 6 # 6.5
 end: 7
 uses:
   - fruit

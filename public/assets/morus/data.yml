@@ -1,6 +1,6 @@
 name: Mulberry
 sciName: Morus alba
-start: 6
+start: 5.5
 end: 6
 uses:
   - fruit
