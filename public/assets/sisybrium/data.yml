@@ -1,10 +1,11 @@
 name: Khardal Barri
 sciName: Sisymbrium irio
-start: 11
+start: 10
 end: 5
 uses:
   - salad
   - herb
+  - chicken food
 description: A winter mustard green with a spicy, wasabi-like bite.
 nativeTo: Middle East and Mediterranean
 image: wild.jpg
